@@ -1,3 +1,34 @@
-body{
-  background-color: grey;
+:root{
+  --orange: hsl(25, 97%, 53%);
+  --white:  hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
 }
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  background-color: var(--veryDarkBlue);
+  color: var(--white);
+}
+.container{
+  background-color: var(--darkBlue);
+  width: 90%;
+}
+
+p{
+  color: var(--lightGrey);
+}
+
+.rating-choices{
+  color: var(--lightGrey);
+  background-color: var(--orange);
+}
+
+
