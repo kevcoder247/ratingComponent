@@ -27,19 +27,19 @@ body{
 .container{
   background-color: var(--darkBlue);
   border-radius: 10px;
-  width: 90%;
-  height: 375px;
+  width: 350px;
+  height: 345px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 20px;
-  
+  padding-bottom: 8px;
 }
 img{
   width: 35px;
   height: 35px;
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 36px;
   background-color: rgba(211, 211, 211, 0.1);
   border-radius: 25px;
   /* border: 2px solid green; */
@@ -50,7 +50,7 @@ h1{
   /* border: 2px solid red; */
   font-size: 1.5rem;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 35px;
   width: 55%;
 }
 
@@ -59,15 +59,13 @@ p{
   /* background-color: bisque; */
   /* border: solid blue 2px; */
   color: var(--lightGrey);
-  word-spacing: 5px;
+  word-spacing: 2px;
   line-height: 1.6;
   margin-top: -10px;
-  margin-left: 20px;
+  margin-left: 35px;
   font-size: .8rem;
-  width: 90%;
+  width: 275px;
 }
-
-
 
 .rating-container{
   text-align: center;
@@ -78,16 +76,17 @@ p{
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 290px;
   margin: 0 auto;
-
+  gap:16px;
 }
 
 .rating-list li{
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 45px;
   background-color: rgba(128, 128, 128, 0.07);
+  color: var(--lightGrey);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,17 +103,48 @@ input[type="submit"]{
   background-color: var(--orange);
   border: none;
   color: var(--white);
-  width: 90%;
+  width: 80%;
   height: 40px;
   margin: auto;
   border-radius: 20px;
   font-size: .8rem;
   text-transform: uppercase;
   cursor: pointer;
+  letter-spacing: 3px;
+
 }
 input[type="submit"]:hover{
   background-color: var(--white);
   color: var(--orange);
+}
+
+/* Tablet Screen */
+@media(min-width: 768px){
+  /* body{
+    background-color: grey;
+  } */
+  .container{
+    width: 375px;
+  }
+
+  img{
+    margin-left: 42px;
+  }
+  h1{
+    margin-left: 40px;
+    font-size: 1.7rem;
+  }
+  p{
+    margin-left: 40px;
+    width: 300px;
+  }
+
+  .rating-list li:hover{
+    color: var(--white);
+  }
+  input[type="submit"] {
+    width: 75%;
+  }
 }
 
 
