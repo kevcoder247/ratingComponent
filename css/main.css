@@ -26,6 +26,7 @@ body{
 }
 .container{
   background-color: var(--darkBlue);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
   width: 340px;
   height: 345px;
@@ -42,6 +43,7 @@ img{
   margin-left: 36px;
   background-color: rgba(211, 211, 211, 0.1);
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   /* border: 2px solid green; */
 }
 h1{
@@ -92,18 +94,22 @@ p{
   justify-content: center;
   border-radius: 50%;
   font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 .rating-list li:hover{
   background-color: var(--orange);
   cursor: pointer;
+  box-shadow: none;
+  font-size: 1.2rem;
 }
 
 input[type="submit"]{
   background-color: var(--orange);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: none;
   color: var(--white);
-  width: 80%;
+  width: 85%;
   height: 40px;
   margin: auto;
   border-radius: 20px;
@@ -116,7 +122,51 @@ input[type="submit"]{
 input[type="submit"]:hover{
   background-color: var(--white);
   color: var(--orange);
+  box-shadow: none;
+  margin-top: 1rem;
 }
+
+.icon{
+  /* border: 1px solid green; */
+  transform: scale(2);
+  width: 60px;
+  background: none;
+  border-radius: 0%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 0px;
+  box-shadow: none;
+}
+
+.selection{
+  /* border: 1px solid yellow; */
+  color: var(--orange);
+  text-align: center;
+  font-size: .8rem;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 0px;
+  background-color: #8080802b;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.thank-you{
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.newP{
+  /* border: 2px solid blue; */
+  text-align: center;
+  line-height: 1.7;
+
+}
+
+
 
 /* Tablet Screen */
 @media(min-width: 768px){
