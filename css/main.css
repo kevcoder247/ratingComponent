@@ -117,7 +117,6 @@ input[type="submit"]{
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 3px;
-
 }
 input[type="submit"]:hover{
   background-color: var(--white);
@@ -144,7 +143,7 @@ input[type="submit"]:hover{
   color: var(--orange);
   text-align: center;
   font-size: .8rem;
-  width: 45%;
+  max-width: 155px;
   margin: auto;
   margin-bottom: 0px;
   background-color: #8080802b;
