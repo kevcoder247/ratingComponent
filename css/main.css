@@ -162,11 +162,9 @@ input[type="submit"]:hover{
 .newP{
   /* border: 2px solid blue; */
   text-align: center;
-  line-height: 1.7;
+  width: 304px;
 
 }
-
-
 
 /* Tablet Screen */
 @media(min-width: 768px){
@@ -193,7 +191,7 @@ input[type="submit"]:hover{
     color: var(--white);
   }
   input[type="submit"] {
-    width: 75%;
+    width: 80%;
   }
 }
 
