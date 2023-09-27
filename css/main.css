@@ -143,12 +143,13 @@ input[type="submit"]:hover{
   color: var(--orange);
   text-align: center;
   font-size: .8rem;
-  max-width: 155px;
+  max-width: 170px;
   margin: auto;
   margin-bottom: 0px;
   background-color: #8080802b;
   padding: 5px;
   border-radius: 20px;
+  height: 25px;
 }
 
 .thank-you{
