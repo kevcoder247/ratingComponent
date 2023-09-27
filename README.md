@@ -52,6 +52,6 @@ User should be able to:
 
 ---
 
-###Author
+### Author
 
 - Website: [kevinventura.io](https://kevinventura.io/)
