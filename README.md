@@ -5,8 +5,8 @@
 - [Overview](#overview)
   - [Description and Features](#description-and-features)
   - [Screenshot](#screenshot)
-  - [Live App](#link)
-  - [Built with](#builtWith)
+  - [Live App](#live-app)
+  - [Built with](#built-with)
   - [Author](#author)
 
 ## OverView
@@ -27,7 +27,7 @@ User should be able to:
 
 ---
 
-### Screenshot and Wire Frame
+### Screenshot
 
 ![Image 1](images/desk1.jpg)
 ![Image 2](images/desk2.jpg)
@@ -38,4 +38,20 @@ User should be able to:
 
 ### Live App
 
-- Live Site URL: ()
+- Live Site URL: [Link](https://651456467f17f80008b1131b--cozy-panda-7f770e.netlify.app/)
+
+---
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS3
+- Flexbox
+- Mobile-first workflow
+- JavaScript
+
+---
+
+###Author
+
+- Website: [kevinventura.io](https://kevinventura.io/)
