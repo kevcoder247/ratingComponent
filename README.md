@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [Description and Features](#description-and-features)
-  - [Screenshot](#Screenshot)
+  - [Screenshot](#screenshot)
   - [Live App](#link)
   - [Built with](#builtWith)
   - [Author](#author)
@@ -27,9 +27,15 @@ User should be able to:
 
 ---
 
-### ScreenShot and Wire Frame
+### Screenshot and Wire Frame
 
 ![Image 1](images/desk1.jpg)
 ![Image 2](images/desk2.jpg)
 ![Image 3](images/desk3.jpg)
 ![Image 4](images/desk4.jpg)
+
+---
+
+### Live App
+
+- Live Site URL: ()
